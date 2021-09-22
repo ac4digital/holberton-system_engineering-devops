@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Current Dir: $HOME"
+cd $HOME
+$SHELL
