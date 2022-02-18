@@ -5,7 +5,7 @@
 # Where onlye the part of the name after the first dash
 # is displayed
 LIST="$(ls)"
-for i in "$LIST"; 
+for i in "$LIST";
 do
     echo "$LIST" | cut -d'-' -f2
 done
