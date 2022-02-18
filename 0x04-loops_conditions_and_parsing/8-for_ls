@@ -5,8 +5,6 @@
 # Where onlye the part of the name after the first dash
 # is displayed
 
-LIST="$(ls)"
-for i in "$LIST";
-do
-    echo "$LIST" | cut -d'-' -f2
+for i in *; do
+    echo "$i" | cut -d'-' -f2
 done
