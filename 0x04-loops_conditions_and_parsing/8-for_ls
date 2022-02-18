@@ -4,6 +4,7 @@
 # In a list format
 # Where onlye the part of the name after the first dash
 # is displayed
+
 LIST="$(ls)"
 for i in "$LIST";
 do
