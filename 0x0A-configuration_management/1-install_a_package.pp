@@ -4,5 +4,5 @@ package { 'puppet-lint':
     ensure   => '2.5.0',
     provider => 'gem',
     name     => 'puppet-lint',
-    source   => 'https://rubygems.org/gems',
+    source   => 'https://rubygems.org/downloads/',
 }
