@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # script to link sites-enabled to sites-available and start nginx
 
-sudo sed -i "s/sites-available/default" /etc/nginx/nginx.conf
+sudo sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
 pkill -1 nginx
