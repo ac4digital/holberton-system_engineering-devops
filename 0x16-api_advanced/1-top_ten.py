@@ -20,5 +20,5 @@ def top_ten(subreddit):
         list = r.get('data').get('children')
         for i in list:
             print(i.get('data').get('title'))
-    except ValueError:
+    except Exception:
         print(None)
